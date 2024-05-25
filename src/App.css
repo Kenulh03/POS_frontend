@@ -1,0 +1,254 @@
+img{
+    height: 1400px;
+    background-size: cover;
+    position: absolute;
+    filter: brightness(50%);
+}
+
+.content-home{
+    position: absolute;
+    right: 1170px;
+    top: 200px;
+    width: 32%;
+    background-color: rgb(30, 32, 33);
+    color: aliceblue;
+    padding: 25px 50px;
+    border-radius: 25px;
+}
+
+.form{
+    position: absolute;
+    background-color: rgb(47, 50, 52);
+    right: 1170px;
+    top: 200px;
+    width: 32%;
+    color: aliceblue;
+    padding: 25px 50px;
+    border-radius: 25px;
+}
+
+.users-table{
+    position: fixed;
+    right: 500px;
+    top: 100px;
+    width: 70%;
+    color: aliceblue;
+    padding: 25px 50px;
+    border-radius: 25px;
+}
+
+.users{
+    position: fixed;
+    background-color: rgb(47, 50, 52);
+    right: 1155px;
+    top: 600px;
+    width: 30%;
+    color: aliceblue;
+    padding: 25px 50px;
+    border-radius: 25px;
+}
+
+.products-table{
+    position: fixed;
+    right: 1100px;
+    top: 50px;
+    width: 40%;
+    color: aliceblue;
+    padding: 25px 50px;
+    border-radius: 25px; 
+}
+
+.products{
+    position: fixed;
+    background-color: rgb(47, 50, 52);
+    right: 300px;
+    top: 200px;
+    width: 30%;
+    color: aliceblue;
+    padding: 25px 50px;
+    border-radius: 25px; 
+}
+
+.order-button{
+    position: fixed;
+    right: 1100px;
+    top: 50px;
+    width: 40%;
+    color: aliceblue;
+    padding: 25px 50px;
+    border-radius: 25px; 
+}
+
+.orders-table{
+    position: fixed;
+    right: 1000px;
+    top: 200px;
+    width: 40%;
+    padding: 25px 50px;
+    border-radius: 25px; 
+}
+
+.order-heading{
+    position: fixed;
+    right: 1170px;
+    top: 100px;
+    width: 32%;
+    color: aliceblue;
+    padding: 25px 50px;
+    border-radius: 25px;
+}
+
+@media (max-width:1000px) {
+    .content-home{
+        position: absolute;
+        right: 200px;
+        top: 200px;
+        width: 60%;
+        background-color: rgb(30, 32, 33);
+        color: aliceblue;
+        padding: 25px 50px;
+        border-radius: 25px;
+    }
+
+    .nav{
+        width: 100%;
+        background-color: #555;
+        overflow: auto;
+        font-size: x-large;
+    }
+
+    .users-table{
+        position: fixed;
+        left: 50px;
+        top: 70px;
+        width: 40%;
+        color: aliceblue;
+        padding: 25px 50px;
+        border-radius: 25px;
+    }
+
+    .users{
+        position: fixed;
+        background-color: rgb(47, 50, 52);
+        left: 85px;
+        top: 600px;
+        width: 60%;
+        color: aliceblue;
+        padding: 25px 50px;
+        border-radius: 25px;
+    }
+
+    .products-table{
+        position: absolute;
+        left:50px;
+        top: 50px;
+        width: 60%;
+        color: aliceblue;
+        padding: 25px 50px;
+        border-radius: 25px; 
+    }
+
+    .products{
+        position: absolute;
+        background-color: rgb(47, 50, 52);
+        left: 600px;
+        top: 200px;
+        width: 60%;
+        color: aliceblue;
+        padding: 25px 50px;
+        border-radius: 25px; 
+    }
+
+    .order-button{
+        position: absolute;
+        left: 30px;
+        top: 70px;
+        width: 60%;
+        color: aliceblue;
+        padding: 25px 50px;
+        border-radius: 25px; 
+    }
+
+    .order-heading{
+        position: absolute;
+        left: 40px;
+        top: 120px;
+        width: 40%;
+        color: aliceblue;
+        padding: 25px 50px;
+        border-radius: 25px;
+    }
+
+    .orders-table{
+        position: absolute;
+        left:40px;
+        top: 200px;
+        width: 60%;
+        padding: 25px 50px;
+        border-radius: 25px; 
+    }
+
+    .form{
+        position: absolute;
+        background-color: rgb(47, 50, 52);
+        left: 100px;
+        top: 200px;
+        width: 60%;
+        font-size: large;
+        color: aliceblue;
+        padding: 25px 50px;
+        border-radius: 25px;
+    }
+}
+
+
+@media (max-width:500px) {
+
+    img{
+        height: 1400px;
+        background-size: cover;
+        position: fixed;
+        filter: brightness(50%);
+    }
+    .content-home{
+        position: relative;
+        left: 50px;
+        top: 200px;
+        width: 100%;
+        background-color: rgb(30, 32, 33);
+        color: aliceblue;
+        padding: 25px 50px;
+        border-radius: 25px;
+    } 
+
+    .nav{
+        width: 100%;
+        overflow: auto;
+        font-size: xx-small;
+    }
+    .users-table{
+        position: relative;
+        left: 50px;
+        top: 70px;
+        width: 40%;
+        color: aliceblue;
+        padding: 25px 50px;
+        border-radius: 25px;
+    }
+
+    .orders-table{
+        position: relative;
+        left:40px;
+        top: 200px;
+        width: 60%;
+        padding: 25px 50px;
+        border-radius: 25px; 
+    }
+    
+}
+
+@media print{
+    .button-print{
+        display: none;
+    }
+}
